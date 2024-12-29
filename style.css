@@ -1,0 +1,45 @@
+
+*{
+    font-family: 'Public Pixel', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;                                                
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+header>div{
+    margin: 80px;
+}
+content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img{
+    border: black 1px solid;
+    padding: 50px;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{  color: black;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    transition:2s;
+}
+
+
+a:hover{
+    color:#FF9999;
+    font-size: 1.2rem;
+    transition:1.5s;
+}
