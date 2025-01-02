@@ -1,3 +1,31 @@
 *{
-    font-family: 'Public Pixel', sans-serif;                                             
+    font-family: 'Public Pixel', sans-serif;
+    box-sizing: border-box;
+    background-color:#2b3137;
+    color: #FF9999;
+    margin: 0;
+    padding: 0;                                            
+}
+.con-para{
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    font-size: 1.5em;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+.pic-frame{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    margin: 25px;
 }

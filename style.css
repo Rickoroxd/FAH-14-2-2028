@@ -1,6 +1,8 @@
 
 *{
     font-family: 'Public Pixel', sans-serif;
+    background-color:#2b3137;
+    color: #FF9999;
     box-sizing: border-box;
     margin: 0;
     padding: 0;                                                
@@ -21,7 +23,6 @@ content{
 }
 
 .img{
-    border: black 1px solid;
     padding: 50px;
 }
 footer{
@@ -30,7 +31,7 @@ footer{
     justify-content: center;
 }
 
-a{  color: black;
+a{  color: rgb(255, 255, 255);
     margin-top: 15px;
     text-align: center;
     text-decoration: none;
